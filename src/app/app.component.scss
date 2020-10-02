@@ -1,0 +1,36 @@
+.main-container {
+  height: 100%;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  .bg {
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+  }
+
+  .title {
+    color: #fff;
+    font-size: 22px;
+    padding-top: 0.5rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .ip-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+app-search-bar,
+app-info-container {
+  width: 100%;
+}

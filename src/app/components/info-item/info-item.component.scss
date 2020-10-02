@@ -1,0 +1,16 @@
+.info-item {
+  text-align: center;
+  margin: 0.4rem 0;
+
+  .title {
+    font-size: 12px;
+    color: var(--dark);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  .subtitle {
+    font-size: 18px;
+    color: var(--veryDark);
+  }
+}

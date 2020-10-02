@@ -1,0 +1,9 @@
+<div class="card">
+  <app-info-item title="ip address" [subtitle]="ipInfo.ip"></app-info-item>
+  <app-info-item
+    title="location"
+    [subtitle]="ipInfo.country + ', ' + ipInfo.code + ' ' + ipInfo.zip"
+  ></app-info-item>
+  <app-info-item title="city" [subtitle]="ipInfo.city"></app-info-item>
+  <app-info-item title="flag" [subtitle]="ipInfo.flag"></app-info-item>
+</div>

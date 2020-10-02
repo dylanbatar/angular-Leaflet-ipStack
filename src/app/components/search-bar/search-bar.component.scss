@@ -1,0 +1,41 @@
+.bar {
+  width: 100%;
+  @media (min-width: 991px) {
+    width: 400px;
+    margin: auto;
+  }
+  margin-bottom: 1rem;
+
+  .content-input {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+
+    input {
+      padding: 1rem;
+      border-radius: 16px;
+      width: 100%;
+      border: unset;
+    }
+
+    .content-button {
+      position: absolute;
+      border-top-right-radius: 16px;
+      border-bottom-right-radius: 16px;
+      background-color: var(--veryDark);
+      right: 0;
+      height: 100%;
+      width: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: ease-in 0.2s;
+
+      &:hover {
+        background-color: var(--dark);
+        transition: ease-in 0.2s;
+      }
+    }
+  }
+}

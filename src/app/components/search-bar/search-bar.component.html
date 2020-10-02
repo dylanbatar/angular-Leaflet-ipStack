@@ -1,0 +1,13 @@
+<div class="bar">
+  <div class="content-input">
+    <input
+      type="text"
+      #textInput
+      placeholder="search for any IP address or domain"
+      (keydown.enter)="handlerInputChange(textInput.value)"
+    />,
+    <div class="content-button" (click)="handlerInputChange(textInput.value)">
+      <img src="assets/icon-arrow.svg" alt="" />
+    </div>
+  </div>
+</div>

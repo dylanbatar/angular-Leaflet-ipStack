@@ -1,0 +1,9 @@
+<div class="main-container">
+  <div class="bg" style="background-image: url(assets/pattern-bg.png)"></div>
+  <h2 class="title">IP Address Tracker</h2>
+  <div class="ip-info">
+    <app-search-bar (textWord)="ip = $event"></app-search-bar>
+    <app-info-container [ipChange]="ip"> </app-info-container>
+  </div>
+  <app-map-container></app-map-container>
+</div>
