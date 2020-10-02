@@ -7,6 +7,7 @@ import { InfoContainerComponent } from './components/info-container/info-contain
 import { InfoItemComponent } from './components/info-item/info-item.component';
 import { MapContainerComponent } from './components/map-container/map-container.component';
 import { HttpClientModule } from '@angular/common/http';
+import { AmplifyUIAngularModule } from '@aws-amplify/ui-angular';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,7 @@ import { HttpClientModule } from '@angular/common/http';
     InfoItemComponent,
     MapContainerComponent,
   ],
-  imports: [BrowserModule, HttpClientModule],
+  imports: [BrowserModule, HttpClientModule, AmplifyUIAngularModule],
   providers: [],
   bootstrap: [AppComponent],
 })
