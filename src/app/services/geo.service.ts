@@ -8,7 +8,8 @@ import { location } from 'src/interfaces/ilocation';
   providedIn: 'root',
 })
 export class GeoService {
-  private geoServer: string = 'http://api.ipstack.com';
+  private geoServer: string =
+    'https://cors-anywhere.herokuapp.com/http://api.ipstack.com';
   public location: location = {
     lat: -75.48326110839844,
     lng: 10.400710105895996,

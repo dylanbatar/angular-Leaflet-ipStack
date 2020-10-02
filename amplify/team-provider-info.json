@@ -1,15 +1,23 @@
 {
-  "dev": {
-    "awscloudformation": {
-      "AuthRoleName": "amplify-iptracker-dev-220140-authRole",
-      "UnauthRoleArn": "arn:aws:iam::778502497960:role/amplify-iptracker-dev-220140-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::778502497960:role/amplify-iptracker-dev-220140-authRole",
-      "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-iptracker-dev-220140-deployment",
-      "UnauthRoleName": "amplify-iptracker-dev-220140-unauthRole",
-      "StackName": "amplify-iptracker-dev-220140",
-      "StackId": "arn:aws:cloudformation:us-east-1:778502497960:stack/amplify-iptracker-dev-220140/9a996010-045b-11eb-babb-12ae8fb95b53",
-      "AmplifyAppId": "d33f2lwcjjv1wl"
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-iptracker-dev-220140-authRole",
+            "UnauthRoleArn": "arn:aws:iam::778502497960:role/amplify-iptracker-dev-220140-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::778502497960:role/amplify-iptracker-dev-220140-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-iptracker-dev-220140-deployment",
+            "UnauthRoleName": "amplify-iptracker-dev-220140-unauthRole",
+            "StackName": "amplify-iptracker-dev-220140",
+            "StackId": "arn:aws:cloudformation:us-east-1:778502497960:stack/amplify-iptracker-dev-220140/9a996010-045b-11eb-babb-12ae8fb95b53",
+            "AmplifyAppId": "d33f2lwcjjv1wl"
+        },
+        "categories": {
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d33f2lwcjjv1wl",
+                    "type": "manual"
+                }
+            }
+        }
     }
-  }
 }
